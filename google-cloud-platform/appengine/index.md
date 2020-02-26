@@ -3,6 +3,7 @@ layout: default
 title: App Engine
 parent: Google Cloud Platform
 nav_order: 1
+has_children: true
 ---
 
 # App Engine
