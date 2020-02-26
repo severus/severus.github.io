@@ -52,12 +52,17 @@ To change information on the OAuth consent screen later, such as the product nam
 
 #### Setting up IAP access
 
-1. Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
-2. Under **HTTPS Resources**, select **All Web Service/App Engine app/default** resource by checking the box to its left. On the right side panel, click **Add Member**.
-3. In the **Add members** dialog, add **allUsers** and grant the **IAP-secured Web App User** role for the project.
-4. When you're finished, click **Add**.
-5. Select **All Web Service/App Engine app/admin** and **All Web Service/App Engine app/api** resources by checking the boxes to its left. On the right side panel, click **Add Member**.
-6. In the **Add members** dialog, add the email addresses of groups or individuals to whom you want to grant the **IAP-secured Web App User** role for the project.
+Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
+
+Under **HTTPS Resources**, select **All Web Service/App Engine app/default** resource by checking the box to its left. On the right side panel, click **Add Member**.
+
+In the **Add members** dialog, add **allUsers** and grant the **IAP-secured Web App User** role for the project.
+
+When you're finished, click **Add**.
+
+Select **All Web Service/App Engine app/admin** and **All Web Service/App Engine app/api** resources by checking the boxes to its left. On the right side panel, click **Add Member**.
+
+In the **Add members** dialog, add the email addresses of groups or individuals to whom you want to grant the **IAP-secured Web App User** role for the project.
 
 The following kinds of accounts can be members:
 
@@ -66,9 +71,9 @@ The following kinds of accounts can be members:
 - **Service account**: server@example.gserviceaccount.com
 - **G Suite domain**: example.com
 
-Make sure to add a Google Account that you have access to.
+Make sure to add a Google Account that you have access to.</li>
 
-7. When you're finished adding members, click Add.
+When you're finished adding members, click Add.
 
 #### Turning on IAP
 
