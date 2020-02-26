@@ -2,7 +2,7 @@
 layout: default
 title: Cloud IAP
 parent: App Engine
-grand_parent: Google Cloud Platfirm
+grand_parent: Google Cloud Platform
 nav_order: 1
 ---
 
