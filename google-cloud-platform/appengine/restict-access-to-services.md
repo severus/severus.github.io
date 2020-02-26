@@ -28,7 +28,7 @@ Identity-Aware Proxy (IAP) lets you manage who has access to services hosted on 
 
 For example, we have three App Engine services deployed — `default`, `admin` and `api`.
 
-`default` is our [static landing page](/google-cloud-platform/appengine/static-website), `admin` is a [React application](/google-cloud-platform/appengine/react-app), and `api` is a RESTful API which provides data to the React app.
+`default` is our landing page, `admin` is a [React application](/google-cloud-platform/appengine/react-app), and `api` is a RESTful API which provides data to the React app.
 
 Our access restrictions should be as following:
 
@@ -38,18 +38,18 @@ Our access restrictions should be as following:
 
 ## Implementation
 
-Enable Identity-Aware Proxy as described in the [documentation](https://cloud.google.com/iap/docs/app-engine-quickstart#enabling_iap):
+Enable Identity-Aware Proxy as described in the [documentation](https://cloud.google.com/iap/docs/app-engine-quickstart#enabling_iap){:target="_blank"}:
 
 ### Selecting a project
 
-1. Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
+1. Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap){:target="_blank"}.
 2. If you don't already have an active project, you'll be prompted to select the project you want to secure with IAP. Select the project to which you deployed your application.
 
 ### Configuring the OAuth consent screen
 
 If you haven't configured your project's OAuth consent screen, you'll be prompted to do so. An email address and product name are required for the OAuth consent screen.
 
-1. Go to the [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent).
+1. Go to the [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent){:target="_blank"}.
 2. Under **Support email**, select the email address you want to display as a public contact. This email address must be your email address, or a Google Group you own.
 3. Enter the **Application name** you want to display.
 4. Add any optional details you'd like.
@@ -59,7 +59,7 @@ To change information on the OAuth consent screen later, such as the product nam
 
 ### Setting up IAP access
 
-Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
+Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap){:target="_blank"}.
 
 Under **HTTPS Resources**, select **All Web Service/App Engine app/default** resource by checking the box to its left. On the right side panel, click **Add Member**.
 
@@ -85,7 +85,7 @@ When you're finished adding members, click Add.
 ### Turning on IAP
 
 1. On the **Identity-Aware Proxy** page, under **HTTPS Resources**, find the App Engine app you want to restrict access to. The **Published** column shows the URL of the app. To turn on IAP for the app, toggle the on/off switch in the **IAP** column.
-  - To enable IAP, you need the `appengine.applications.update`, `clientauthconfig.clients.create`, and `clientauthconfig.clients.getWithSecret` permissions. These permissions are granted by roles, such as the Project Editor role. To learn more, see [Managing access to IAP-secured resources](https://cloud.google.com/iap/docs/managing-access#turning_on_and_off).
+  - To enable IAP, you need the `appengine.applications.update`, `clientauthconfig.clients.create`, and `clientauthconfig.clients.getWithSecret` permissions. These permissions are granted by roles, such as the Project Editor role. To learn more, see [Managing access to IAP-secured resources](https://cloud.google.com/iap/docs/managing-access#turning_on_and_off){:target="_blank"}.
 2. To confirm that you want IAP to secure the application, click **Turn On** in the **Turn on IAP** window that appears. After you turn it on, IAP requires login credentials for all connections to your application. Only accounts with the **IAP-secured Web App User** role on this project will be given access.
 
 ### Test Access
