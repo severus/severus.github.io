@@ -12,7 +12,7 @@ nav_order: 1
 Identity-Aware Proxy (IAP) lets you manage who has access to services hosted on [App Engine](/google-cloud-platform/appengine/), Compute Engine, or an HTTPS Load Balancer.
 {: .fs-6 .fw-300 }
 
-[Learn more](https://cloud.google.com/iap/docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Learn more](https://cloud.google.com/iap/docs){: .btn .fs-5 .mb-4 .mb-md-0 }{:target="_blank"}
 
 ---
 
