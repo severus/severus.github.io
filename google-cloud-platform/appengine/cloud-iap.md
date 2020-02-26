@@ -38,16 +38,14 @@ Our access restrictions should be as following:
 
 ## Implementation
 
-### Enable IAP
-
 Enable Identity-Aware Proxy as described in the [documentation](https://cloud.google.com/iap/docs/app-engine-quickstart#enabling_iap):
 
-#### Selecting a project
+### Selecting a project
 
 1. Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
 2. If you don't already have an active project, you'll be prompted to select the project you want to secure with IAP. Select the project to which you deployed your application.
 
-#### Configuring the OAuth consent screen
+### Configuring the OAuth consent screen
 
 If you haven't configured your project's OAuth consent screen, you'll be prompted to do so. An email address and product name are required for the OAuth consent screen.
 
@@ -59,7 +57,7 @@ If you haven't configured your project's OAuth consent screen, you'll be prompte
 
 To change information on the OAuth consent screen later, such as the product name or email address, repeat the preceding steps to configure the consent screen.
 
-#### Setting up IAP access
+### Setting up IAP access
 
 Go to the [Identity-Aware Proxy page](https://console.cloud.google.com/security/iap).
 
@@ -84,13 +82,13 @@ Make sure to add a Google Account that you have access to.</li>
 
 When you're finished adding members, click Add.
 
-#### Turning on IAP
+### Turning on IAP
 
 1. On the **Identity-Aware Proxy** page, under **HTTPS Resources**, find the App Engine app you want to restrict access to. The **Published** column shows the URL of the app. To turn on IAP for the app, toggle the on/off switch in the **IAP** column.
   - To enable IAP, you need the `appengine.applications.update`, `clientauthconfig.clients.create`, and `clientauthconfig.clients.getWithSecret` permissions. These permissions are granted by roles, such as the Project Editor role. To learn more, see [Managing access to IAP-secured resources](https://cloud.google.com/iap/docs/managing-access#turning_on_and_off).
 2. To confirm that you want IAP to secure the application, click **Turn On** in the **Turn on IAP** window that appears. After you turn it on, IAP requires login credentials for all connections to your application. Only accounts with the **IAP-secured Web App User** role on this project will be given access.
 
-#### Test Access
+### Test Access
 
 1. Access the app URL from the Google Account that you added to IAP. You should have unrestricted access to the app.
 2. Use an incognito window or private mode in your browser to access the app and sign in when prompted. If you try to access the app with an account that isn't authorized, you'll see a message saying that you don't have access.
