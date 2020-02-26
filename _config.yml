@@ -1,4 +1,5 @@
 url: "https://kb.severus.io"
 title: "Knowledge base"
 remote_theme: pmarsceill/just-the-docs
+permalink: pretty
 search_enabled: false
