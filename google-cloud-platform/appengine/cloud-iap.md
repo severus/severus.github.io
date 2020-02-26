@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Setting different IAP permissions for different App Engine services
+title: Cloud IAP
 parent: App Engine
 grand_parent: Google Cloud Platfirm
 nav_order: 1
