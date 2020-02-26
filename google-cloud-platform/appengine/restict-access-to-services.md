@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Cloud IAP
+title: Restrict access to services
 parent: App Engine
 grand_parent: Google Cloud Platform
 nav_order: 1
 ---
 
-# Setting different Identity-Aware Proxy permissions for different App Engine services
+# Restrict access to App Engine Services with Identity-Aware Proxy
 {: .no_toc }
 
 Identity-Aware Proxy (IAP) lets you manage who has access to services hosted on [App Engine](/google-cloud-platform/appengine/), Compute Engine, or an HTTPS Load Balancer.
