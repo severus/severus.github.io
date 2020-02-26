@@ -3,7 +3,6 @@ layout: default
 title: Google Cloud Platform
 nav_order: 2
 has_children: true
-permalink: /google-cloud-platform
 ---
 
 # Google Cloud Platform
