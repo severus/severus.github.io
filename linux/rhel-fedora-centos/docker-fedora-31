@@ -11,9 +11,11 @@ Fedora 31 is the first major Linux dustribution that comes with cgroup v2 enable
 
 To start Docker on Fedora 31 run the following command and reboot:
 
+```
 $ sudo dnf install -y grubby && \
   sudo grubby \
   --update-kernel=ALL \
   --args="systemd.unified_cgroup_hierarchy=0"
+```
 
 This command reverts the systemd configuration to use cgroup v1.
