@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Error runing Docker on Fedora 31
-parent: Red Hat, Fedora, CentOS
+parent: RHEL, Fedora, CentOS
 grand_parent: Linux
 nav_order: 1
 ---
