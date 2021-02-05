@@ -13,25 +13,25 @@ The following options can be specified as values for `runtime` property in App E
 
 ## First generation
 
-- `php` (see Note on PHP 5.4 support)
+- `go111`
+- `java` (see [Note on Java 6 support](#note-on-java-6-support))
+- `java7` (see [Note on Java 7 support](#note-on-java-7-support))
+- `java8`
+- `php` (see [Note on PHP 5.4 support](#note-on-php-54-support))
 - `php55`
 - `python27`
-- `java` (see Note on Java 6 support)
-- `java7` (see Note on Java 7 support)
-- `java8`
-- `go111`
 
 ### Note on PHP 5.4 support
 
-PHP 5.4 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy PHP 5.4 applications for compatibility reasons, you can request that your application be whitelisted for PHP 5.4 deployment by visiting http://goo.gl/qjKEuk.
+PHP 5.4 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy PHP 5.4 applications for compatibility reasons, you can request that your application be whitelisted for PHP 5.4 deployment by visiting [http://goo.gl/qjKEuk].
 
 ### Note on Java 6 support
 
-Java 6 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 6 applications for compatibility reasons, you can request that your application be whitelisted for Java 6 deployment by visiting http://goo.gl/ycffXq.
+Java 6 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 6 applications for compatibility reasons, you can request that your application be whitelisted for Java 6 deployment by visiting [http://goo.gl/ycffXq].
 
 ### Note on Java 7 support
 
-Java 7 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 7 applications for compatibility reasons, you can request that your application be whitelisted for Java 7 deployment by visiting https://goo.gl/forms/qxeXfigRMccwAvoj1
+Java 7 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 7 applications for compatibility reasons, you can request that your application be whitelisted for Java 7 deployment by visiting [https://goo.gl/forms/qxeXfigRMccwAvoj1].
 
 ## Second generation
 
