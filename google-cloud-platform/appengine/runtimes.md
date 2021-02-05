@@ -23,15 +23,15 @@ The following options can be specified as values for `runtime` property in App E
 
 ### Note on PHP 5.4 support
 
-PHP 5.4 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy PHP 5.4 applications for compatibility reasons, you can request that your application be whitelisted for PHP 5.4 deployment by visiting [http://goo.gl/qjKEuk].
+PHP 5.4 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy PHP 5.4 applications for compatibility reasons, you can request that your application be whitelisted for PHP 5.4 deployment by visiting [http://goo.gl/qjKEuk](http://goo.gl/qjKEuk).
 
 ### Note on Java 6 support
 
-Java 6 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 6 applications for compatibility reasons, you can request that your application be whitelisted for Java 6 deployment by visiting [http://goo.gl/ycffXq].
+Java 6 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 6 applications for compatibility reasons, you can request that your application be whitelisted for Java 6 deployment by visiting [http://goo.gl/ycffXq](http://goo.gl/ycffXq).
 
 ### Note on Java 7 support
 
-Java 7 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 7 applications for compatibility reasons, you can request that your application be whitelisted for Java 7 deployment by visiting [https://goo.gl/forms/qxeXfigRMccwAvoj1].
+Java 7 applications are prevented from being deployed to Google App Engine from any version of the SDK, including older ones. If you need to continue to deploy Java 7 applications for compatibility reasons, you can request that your application be whitelisted for Java 7 deployment by visiting [https://goo.gl/forms/qxeXfigRMccwAvoj1](https://goo.gl/forms/qxeXfigRMccwAvoj1).
 
 ## Second generation
 
