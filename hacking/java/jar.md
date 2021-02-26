@@ -2,6 +2,7 @@
 layout: default
 title: Packaging programs in JAR files
 parent: Java
+grand_parent: Hacking
 nav_order: 1
 ---
 
